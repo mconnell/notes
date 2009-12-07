@@ -21,3 +21,14 @@ Random example of using method_missing to modify the behaviour of an object inst
     # => true
     # >> god.is_real?
     # NoMethodError: undefined method 'is_real?' for {:kills_kittens?=>true, :name=>"Jebus"}:Hash
+
+# Ruby 1.8.7/1.9
+
+## __method__
+
+    def foo
+      __method__
+    end
+    
+    # >> foo
+    # => :foo
