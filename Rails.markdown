@@ -1,3 +1,7 @@
+## ActiveRecord
+Can't be bothered opening up the source to find out what validations are needed on a model instance for it to be valid?
+    Model.create.errors.full_messages
+
 ## DB Migrations
 
 Setting precision and scale on a decimal:
