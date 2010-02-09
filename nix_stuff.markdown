@@ -1,3 +1,6 @@
+pwgen a really random password with length 8-15 characters
+    pwgen $[($RANDOM % ($[15-8]+1)) + 8] -cnsB1
+
 System Info
     uname -a
 
